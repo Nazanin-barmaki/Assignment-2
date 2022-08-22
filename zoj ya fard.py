@@ -7,18 +7,16 @@ while number > 0:
     mod = number %10
      
 if (mod %2 == 0):
-         zoj +=1
-
- else:
+         zoj +=1 
+else:
       fard +=1
-
-  if(zoj == fard):
+if(zoj == fard):
       print('anha barabarand ')
 
  
-     elif ( zoj > fard):
+ elif ( zoj > fard):
        print (' adad zoj bishtar az adad fard hastand')
        
 
-  else:
+ else:
       print ('adad fard bishtar az adad zoj hastand')
