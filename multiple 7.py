@@ -4,6 +4,6 @@ next_number = (((number//7)*7)+7)
 
 if (mod == 0)
     print ('this number is multiple of seven')
-
-    else:
+    
+else:
         print ('this number is not multiple of seven, the next number is:', next_number)
